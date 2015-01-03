@@ -26,6 +26,7 @@ RubyGems
 Usage
 =====
 
+```ruby
     require 'text-marker'
 
     tm = TextMarker.new "Text"
@@ -39,13 +40,16 @@ Usage
 
     text_with_first_ocurrence_of_snipped_marked = tm.mark_first_ocurrence_of(
       "snippet-to-be-marked", TextMarker::Tag.new :span, :yellow)
+```
 
 Author
 ======
 
 #### Created and maintained by
 Geison Felipe Goes Flores
+
 geisonfgf@gmail.com
+
 @geisonfgfg
 
 License
