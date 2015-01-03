@@ -29,7 +29,7 @@ Usage
 ```ruby
 require 'text-marker'
 
-tm = TextMarker.new "Text"
+tm = TextMarker.Marker.new "Text"
 tm_tag1 = TextMarker::Tag.new :tag, :background_color, :text_color
 
 text_with_all_ocurrence_of_snipped_marked = tm.mark_all_ocurrence_of(
@@ -51,6 +51,14 @@ Geison Felipe Goes Flores
 geisonfgf@gmail.com
 
 @geisonfgfg
+
+## Contributing
+
+1. Fork it ( https://github.com/[my-github-username]/text-marker/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
 License
 =======
