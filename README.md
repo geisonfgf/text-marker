@@ -27,19 +27,19 @@ Usage
 =====
 
 ```ruby
-    require 'text-marker'
+require 'text-marker'
 
-    tm = TextMarker.new "Text"
-    tm_tag1 = TextMarker::Tag.new :tag, :background_color, :text_color
+tm = TextMarker.new "Text"
+tm_tag1 = TextMarker::Tag.new :tag, :background_color, :text_color
 
-    text_with_all_ocurrence_of_snipped_marked = tm.mark_all_ocurrence_of(
-      "snippet-to-be-marked", tm_tag1)
+text_with_all_ocurrence_of_snipped_marked = tm.mark_all_ocurrence_of(
+  "snippet-to-be-marked", tm_tag1)
 
-    text_with_all_ocurrences_of_snipped_marked = tm.mark_all_ocurrence_of(
-      "snippet-to-be-marked", TextMarker::Tag.new :span)
+text_with_all_ocurrences_of_snipped_marked = tm.mark_all_ocurrence_of(
+  "snippet-to-be-marked", TextMarker::Tag.new :span)
 
-    text_with_first_ocurrence_of_snipped_marked = tm.mark_first_ocurrence_of(
-      "snippet-to-be-marked", TextMarker::Tag.new :span, :yellow)
+text_with_first_ocurrence_of_snipped_marked = tm.mark_first_ocurrence_of(
+  "snippet-to-be-marked", TextMarker::Tag.new :span, :yellow)
 ```
 
 Author
