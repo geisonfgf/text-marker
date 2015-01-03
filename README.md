@@ -10,9 +10,11 @@ Gemfile
 -------
 
 1) add in your Gemfile
+
     gem 'text-marker'
 
-2) run this line in your pronpt
+2) run this line in your prompt
+
     $ bundle install text-marker
 
 
