@@ -1,2 +1,5 @@
+require 'simplecov'
+SimpleCov.start
+
 require 'textmarker'
-require 'tag'
+require 'textmarker/tag'

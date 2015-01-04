@@ -19,8 +19,9 @@ module TextMarker
     end
 
     private
+
       def generate_open_tag
-        "<#{@tag} style='background_color: #{@background_color}; color: #{@text_color}'>"
+        "<#{@tag} style='background_color: #{@background_color}; color: #{@text_color};'>"
       end
 
       def generate_close_tag
