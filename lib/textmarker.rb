@@ -1,4 +1,5 @@
 require "textmarker/version"
+require "textmarker/tag"
 
 module TextMarker
   class Marker

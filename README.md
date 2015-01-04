@@ -27,7 +27,7 @@ Usage
 =====
 
 ```ruby
-require 'text-marker'
+require 'TextMarker'
 
 snippet_to_be_marked = "text"
 text = "Some text to be marked. After used TextMaker in this text it will return this text with desired text marked."
