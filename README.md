@@ -32,7 +32,7 @@ require 'text-marker'
 snippet_to_be_marked = "text"
 text = "Some text to be marked. After used TextMaker in this text it will return this text with desired text marked."
 
-text_marked = TextMarker.Marker.new("Text").mark_first_ocurrence_of(snippet_to_be_marked)
+text_marked = TextMarker.Marker.new(text).mark_first_ocurrence_of(snippet_to_be_marked)
 
 tm = TextMarker.Marker.new "Text"
 tm_tag1 = TextMarker::Tag.new :tag, :background_color, :text_color
